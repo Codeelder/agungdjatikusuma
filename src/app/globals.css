@@ -7,6 +7,38 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes lineNavMenu {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.lineNavMenu {
+  animation: lineNavMenu 0.5s ease both;
+}
+
+@media (min-width: 768px) {
+  .md\:lineNavMenu-none {
+    animation: none;
+  }
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease forwards;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -13,7 +13,7 @@ const config = {
     extend: {
       container: {
         padding: {
-          sm: "2rem",
+          sm: "3rem",
           md: "2rem",
           lg: "0rem",
         },
@@ -69,10 +69,15 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "fadeInFromLeft": {
+          from: { width: '0' },
+          to: { width: 'max' },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        'fade-in-from-left': 'fadeInFromLeft 0.3s ease-out',
       },
     },
   },
