@@ -7,7 +7,7 @@ export const HeroSection = () => {
         <Container>
             <div className="relative w-full bg-blueprimary md:rounded-3xl md:flex md:flex-row justify-between">
                 <div className="md:w-1/2 w-full flex flex-col lg:justify-between p-10 text-white gap-5 md:gap-0">
-                    <h1 className="text-5xl md:text-8xl h-max">“Kepuasan Anda adalah <span className="block h-26 w-max pb-3 pr-2 bg-white text-blueprimary">Prioritas</span> bagi kami.”</h1>
+                    <h1 className="text-5xl md:text-8xl h-max">“Kepuasan Anda adalah <span className="block h-26 w-max pb-3 pr-2 bg-white text-blueprimary rounded-md">Prioritas</span> bagi kami.”</h1>
                     <div className="flex flex-col gap-5 mt-1 md:mt-5 lg:mt-0">
                         <p className="text-lg md:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia aut excepturi voluptatum voluptas esse fugit vel error! Aliquid harum sapiente  quisquam magni quaerat accusamus at numquam alias similique fugiat.</p>
                         <button className="flex rounded-md bg-white px-3 py-1 w-max text-xl text-blueprimary gap-2 items-center">Mulai <MoveUpRight width={18} /></button>
