@@ -11,6 +11,9 @@ const config = {
   prefix: "",
   theme: {
     extend: {
+      height: {
+        517: "517px",
+      },
       container: {
         padding: {
           sm: "3rem",
