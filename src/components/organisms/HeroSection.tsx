@@ -1,68 +1,79 @@
 import Image from "next/image"
-import { Container } from "../atoms/container"
-import { MoveUpRight } from "lucide-react"
+import Link from "next/link"
+
+import { ArrowUpRight } from "lucide-react"
+
+const CardCEO = () => {
+  return (
+    <div className="space-y-2 rounded-xl bg-white p-4 shadow-lg">
+      <div className="flex items-center gap-x-3">
+        <Image
+          src="/imgpp.png"
+          alt="CEO of Agung Djati Kusuma"
+          width={160}
+          height={160}
+          className="h-14 w-14 rounded-full object-cover"
+        />
+        <div>
+          <h5 className="text-lg font-semibold">Agung Djati Kusuma</h5>
+          <p className="text-sm font-medium text-gray-500">
+            CEO Agung Djati Kusuma
+          </p>
+        </div>
+      </div>
+      <p className="text-xs">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+        deleniti aliquam voluptatum totam. Quae beatae consequuntur, corporis
+        quibusdam qui alias nobis et provident, ipsa dolorum nihil deserunt
+        recusandae voluptates eum!
+      </p>
+    </div>
+  )
+}
 
 export const HeroSection = () => {
-    return (
-        <Container>
-            <div className="relative w-full bg-blueprimary md:rounded-3xl md:flex md:flex-row justify-between">
-                <div className="md:w-1/2 w-full flex flex-col lg:justify-between p-10 text-white gap-5 md:gap-0">
-                    <h1 className="text-5xl md:text-8xl h-max">“Kepuasan Anda adalah <span className="block h-26 w-max pb-3 pr-2 bg-white text-blueprimary rounded-md">Prioritas</span> bagi kami.”</h1>
-                    <div className="flex flex-col gap-5 mt-1 md:mt-5 lg:mt-0">
-                        <p className="text-lg md:text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia aut excepturi voluptatum voluptas esse fugit vel error! Aliquid harum sapiente  quisquam magni quaerat accusamus at numquam alias similique fugiat.</p>
-                        <button className="flex rounded-md bg-white px-3 py-1 w-max text-xl text-blueprimary gap-2 items-center">Mulai <MoveUpRight width={18} /></button>
-                    </div>
-                </div>
-                <div className="w-1/2">
-                    <Image
-                        src={"/mockup.png"}
-                        alt="mockup"
-                        width={716}
-                        height={741}
-                        className="rounded-r-3xl w-full h-full hidden lg:block"
-                    />
-                </div>
-                <div className="absolute bottom-16 lg:bottom-16 right-16 lg:right-20 w-72 h-48 bg-white rounded-3xl hidden md:block">
-                    <div className="flex h-full flex-col p-5 justify-between">
-                        <div className="flex justify-center items-center gap-4">
-                            <Image
-                                src={"/imgpp.png"}
-                                alt="ceoadk"
-                                width={55}
-                                height={55}
-                            />
-                            <div className="flex flex-col">
-                                <h5 className="font-semibold">Bill Adams</h5>
-                                <h5 className="text-sm font-semibold">Ceo Agung Djati Kusuma</h5>
-                            </div>
-                        </div>
-                        <div>
-                            <p className="text-xs">"This team is really the best in its field,I don't regret working with them, and will come back again thanks, This team is really the best in its field,I don't regret working with them, and will come back again thanks"</p>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section className="container">
+      <div className="grid grid-cols-1 gap-y-8 rounded-3xl bg-blueprimary lg:grid-cols-2 lg:gap-y-0">
+        <div className="col-span-1">
+          <div className="h-full space-y-8 px-3 pt-10 text-white md:space-y-10 md:px-6 md:py-6 lg:space-y-12 lg:py-10 lg:pe-4 lg:ps-10">
+            <h1 className="text-center text-5xl font-semibold md:text-8xl lg:text-start lg:text-7xl xl:text-8xl">
+              “Kepuasan Anda adalah{" "}
+              <span className="rounded-md bg-white px-3 text-blueprimary">
+                Prioritas
+              </span>{" "}
+              bagi kami.”
+            </h1>
+            <div className="space-y-6 lg:pe-6">
+              <p className="text-center text-sm md:text-lg lg:text-start">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis quia aut excepturi voluptatum voluptas esse fugit vel
+                error! Aliquid harum sapiente quisquam magni quaerat accusamus
+                at numquam alias similique fugiat.
+              </p>
+              <Link
+                href={"/layanan-kami"}
+                className="mx-auto flex w-fit items-center justify-between gap-2 rounded-lg bg-white px-4 py-2 text-blueprimary transition-shadow duration-200 hover:shadow-lg hover:shadow-white/20 lg:mx-0"
+              >
+                <p className="text-3xl font-semibold">Mulai</p>
+                <ArrowUpRight size={32} />
+              </Link>
             </div>
-            <div className="w-full flex justify-center mt-10 md:hidden">
-                <div className="w-72 h-48 bg-white rounded-3xl">
-                    <div className="flex h-full flex-col p-5 justify-between">
-                        <div className="flex justify-center items-center gap-4">
-                            <Image
-                                src={"/imgpp.png"}
-                                alt="ceoadk"
-                                width={55}
-                                height={55}
-                            />
-                            <div className="flex flex-col">
-                                <h5 className="font-semibold">Bill Adams</h5>
-                                <h5 className="text-sm font-semibold">Ceo Agung Djati Kusuma</h5>
-                            </div>
-                        </div>
-                        <div>
-                            <p className="text-xs">"This team is really the best in its field,I don't regret working with them, and will come back again thanks, This team is really the best in its field,I don't regret working with them, and will come back again thanks"</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </Container>
-    )
+          </div>
+        </div>
+        <div className="relative col-span-1">
+          <Image
+            src={"/mockup.jpg"}
+            alt="Agung Djati Kusuma on billboard"
+            width={1000}
+            height={1000}
+            className="h-full w-full rounded-3xl object-cover object-left"
+          />
+          <div className="absolute bottom-0 right-0 p-4 md:bottom-10 md:right-10 md:w-1/2 md:p-0">
+            <CardCEO />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }

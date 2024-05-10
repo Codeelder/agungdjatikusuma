@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+
 // import { Epilogue } from "next/font/google"
 import { Navbar } from "@/components/molecules/navbar"
 
@@ -23,9 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <main className="mt-[66px]">
-          {children}
-        </main>
+        <div className="mt-[68px]">{children}</div>
       </body>
     </html>
   )
