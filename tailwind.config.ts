@@ -16,8 +16,9 @@ const config = {
       },
       container: {
         padding: {
-          sm: "3rem",
-          md: "2rem",
+          DEFAULT: "0.2rem",
+          sm: "1rem",
+          md: "1rem",
           lg: "0rem",
         },
         center: true,
@@ -72,15 +73,15 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "fadeInFromLeft": {
-          from: { width: '0' },
-          to: { width: 'max' },
-        }
+        fadeInFromLeft: {
+          from: { width: "0" },
+          to: { width: "max" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        'fade-in-from-left': 'fadeInFromLeft 0.3s ease-out',
+        "fade-in-from-left": "fadeInFromLeft 0.3s ease-out",
       },
     },
   },
