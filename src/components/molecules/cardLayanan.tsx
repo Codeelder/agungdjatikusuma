@@ -45,8 +45,8 @@ export const CardLayanan = ({
           <Image
             src={data.image}
             alt={data.title}
-            width={700}
-            height={700}
+            width={800}
+            height={800}
             className={cn("object-contain", imageClassName)}
           />
         </div>
