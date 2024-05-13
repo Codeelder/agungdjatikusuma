@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/organisms/HeroSection"
 import { LayananKami } from "@/components/organisms/LayananKamiSection"
 import { ProfileKami } from "@/components/organisms/ProfileKamiSection"
+import { TestimoniSection } from "@/components/organisms/TestimoniSection"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <LayananKami />
       <ProfileKami />
+      <TestimoniSection />
     </main>
   )
 }
