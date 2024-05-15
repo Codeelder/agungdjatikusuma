@@ -13,6 +13,7 @@ const config = {
     extend: {
       height: {
         517: "517px",
+        528: "528px"
       },
       container: {
         padding: {
