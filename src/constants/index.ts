@@ -41,3 +41,72 @@ export const MENUS = [
     href: "/layanan-kami",
   },
 ]
+
+export const PARTNER = [
+  {
+    image: "/rekan-kami/mandiri.png",
+  },
+  {
+    image: "/rekan-kami/amartha.png",
+  },
+  {
+    image: "/rekan-kami/paxel.png",
+  },
+  {
+    image: "/rekan-kami/wahyo.png",
+  },
+  {
+    image: "/rekan-kami/cisco.png",
+  },
+  {
+    image: "/rekan-kami/hubble.png",
+  },
+  {
+    image: "/rekan-kami/logoas.png",
+  },
+  {
+    image: "/rekan-kami/ciputra.png",
+  },
+]
+
+export const FOOTERSEEMORE = [
+  {
+    title: "Layanan Kami"
+  },
+  {
+    title: "Tentang Kami"
+  },
+  {
+    title: "Testimoni"
+  },
+  {
+    title: "Rekan Kami"
+  }
+]
+
+export const FOOTERHALAMAN = [
+  {
+    title: "Beranda"
+  },
+  {
+    title: "Profil Kami"
+  },
+  {
+    title: "Layanan Kami"
+  },
+]
+
+export const FOOTERJASA = [
+  {
+    title: "Ekspedisi"
+  },
+  {
+    title: "Pemograman <br /> Perangkat Lunak"
+  },
+  {
+    title: "Perdagangan"
+  },
+  {
+    title: "Reparasi"
+  }
+]
