@@ -32,8 +32,18 @@ export const Elipse = () => {
 export const ToolkitCTA = () => {
     return (
         <>
-            <img className="absolute top-[450px] md:top-96 lg:top-80 -rotate-12 w-40 h-28 md:w-64 md:h-56 lg:w-80 lg:h-72" src="/layanan/toolkit-2.png" alt="" />
-            <img className="absolute top-[450px] md:top-96 lg:top-64 right-0 -scale-x-100 w-40 h-40 md:w-64 md:h-64 lg:w-96 lg:h-96" src="/layanan/toolkit-4.png" alt="" />
+            <img className="absolute -top-12 md:top-96 lg:top-80 -rotate-12 w-32 h-28 md:w-64 md:h-56 lg:w-80 lg:h-72" src="/layanan/toolkit-2.png" alt="" />
+            <img className="absolute -top-20 md:top-96 lg:top-64 right-0 -scale-x-100 w-40 h-40 md:w-64 md:h-64 lg:w-96 lg:h-96" src="/layanan/toolkit-4.png" alt="" />
         </>
+    )
+}
+
+export const Circle = ({className}: {className?: string }) => {
+    return (
+        <svg className={className} width="116" height="123" viewBox="0 0 116 123" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="23" r="99" stroke="white" stroke-width="2" />
+            <circle cx="16" cy="23" r="79" stroke="white" stroke-width="2" />
+            <circle cx="16" cy="23" r="59" stroke="white" stroke-width="2" />
+        </svg>
     )
 }

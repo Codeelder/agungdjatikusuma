@@ -8,7 +8,7 @@ export const CTASection = () => {
             <div className="relative w-full h-528 bg-blueprimary rounded-3xl">
                 <Elipse />
                 <div className="flex flex-col h-full justify-center items-center text-center text-white z-10 space-y-8 md:space-y-28">
-                    <div className="w-2/3">
+                    <div className="md:w-2/3 p-5">
                         <h1 className="text-4xl lg:text-6xl font-semibold">Siap Bekerja bersama kami?</h1>
                         <p className="text-lg lg:text-2xl">Kami menyediakan jasa-jasa yang mungkin anda cari, kami disini untuk mempermudah pekerjaan kalian dan tidak perlu repot-repot untuk mencari penyedia jasa yang lain!.</p>
                     </div>
