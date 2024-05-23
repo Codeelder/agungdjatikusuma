@@ -13,7 +13,11 @@ const config = {
     extend: {
       height: {
         517: "517px",
-        528: "528px"
+        528: "528px",
+        498: "498px",
+      },
+      maxWidth: {
+        510: '510px',
       },
       container: {
         padding: {
