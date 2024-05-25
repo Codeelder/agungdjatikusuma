@@ -48,7 +48,7 @@ export const Elipses = () => {
   return (
     <>
       <svg
-        className="absolute h-20 md:h-32"
+        className="absolute top-0 left-0 h-20 md:h-32"
         width="116"
         height="123"
         viewBox="0 0 116 123"
