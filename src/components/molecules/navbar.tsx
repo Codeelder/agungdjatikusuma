@@ -23,9 +23,9 @@ export const Navbar = () => {
               width={64}
               height={64}
             />
-            <h5 className="font-bold md:text-lg lg:text-2xl">
+            <Link href={'/'} className="font-bold md:text-lg lg:text-2xl">
               Agung Djati <span className="text-blueprimary">Kusuma</span>
-            </h5>
+            </Link>
           </div>
           <div className="flex items-center gap-4 md:hidden">
             <button
