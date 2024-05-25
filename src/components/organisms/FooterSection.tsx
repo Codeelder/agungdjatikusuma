@@ -2,6 +2,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react"
 import Image from "next/image"
 
 import { FOOTERHALAMAN, FOOTERJASA, FOOTERSEEMORE } from "@/constants"
+import Link from "next/link"
 
 export const FooterSection = () => {
     return (
@@ -29,7 +30,7 @@ export const FooterSection = () => {
                             <h5 className="text-2xl font-semibold">Lihat Kembali</h5>
                             <ul className="space-y-2">
                                 {FOOTERSEEMORE.map((item) => (
-                                    <li>{item.title}</li>
+                                    <li><Link href={'/'}>{item.title}</Link></li>
                                 ))}
                             </ul>
                         </div>
@@ -37,7 +38,7 @@ export const FooterSection = () => {
                             <h5 className="text-2xl font-semibold">Halaman</h5>
                             <ul className="space-y-2">
                                 {FOOTERHALAMAN.map((item) => (
-                                    <li>{item.title}</li>
+                                    <li><Link href={'/profile'}>{item.title}</Link></li>
                                 ))}
                             </ul>
                         </div>
@@ -45,7 +46,7 @@ export const FooterSection = () => {
                             <h5 className="text-2xl font-semibold">Jasa Kami</h5>
                             <ul className="space-y-2">
                                 {FOOTERJASA.map((item) => (
-                                    <li>{item.title}</li>
+                                    <li><Link href={'/layanan-kami'}>{item.title}</Link></li>
                                 ))}
                             </ul>
                         </div>
