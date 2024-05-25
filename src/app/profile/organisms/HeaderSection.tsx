@@ -18,7 +18,7 @@ export const HeaderSection = () => {
             <div className="flex flex-col lg:flex-row h-auto justify-center lg:h-96 xl:h-498 space-y-2 lg:space-y-0 lg:space-x-2">
                 <div className="relative w-full xl:max-w-xl h-full rounded-3xl bg-blueprimary px-2 py-10 md:px-10 md:py-20">
                     <h1 className="text-3xl lg:text-4xl xl:text-6xl text-center md:text-start font-semibold text-white">Profile perusahaan kami</h1>
-                    <Circle className="block absolute -bottom-1 left-1 rotate-[270deg]" />
+                    <Circle className="block absolute -bottom-1 left-1 rotate-[270deg]" stroke='white'/>
                 </div>
                 <div className="flex h-60 lg:h-96 xl:h-full gap-2 md:gap-1">
                     {cards.map((card) => (

@@ -35,8 +35,8 @@ export const SejarahSection = () => {
                         height={436}
                         className="z-10 object-contain"
                     />
-                    <Circle className="absolute -bottom-1 -right-1 rotate-[180deg]" />
-                    <Circle className="absolute -top-1 -left-1 rotate-[360deg]" />
+                    <Circle className="absolute -bottom-1 -right-1 rotate-[180deg]" stroke="white" />
+                    <Circle className="absolute -top-1 -left-1 rotate-[360deg]" stroke="white" />
                 </div>
             </div>
         </div>

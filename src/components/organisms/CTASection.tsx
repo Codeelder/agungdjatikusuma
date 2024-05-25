@@ -1,4 +1,4 @@
-import { Elipse, ToolkitCTA } from "@/constants/component"
+import { Elipses, ToolkitCTA } from "@/constants/component"
 import { ArrowUpRight } from "lucide-react"
 import Link from "next/link"
 
@@ -6,7 +6,7 @@ export const CTASection = () => {
     return (
         <div className="container">
             <div className="relative w-full h-528 bg-blueprimary rounded-3xl">
-                <Elipse />
+                <Elipses />
                 <div className="flex flex-col h-full justify-center items-center text-center text-white z-10 space-y-8 md:space-y-28">
                     <div className="md:w-2/3 p-5">
                         <h1 className="text-4xl lg:text-6xl font-semibold">Siap Bekerja bersama kami?</h1>
