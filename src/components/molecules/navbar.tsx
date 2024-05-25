@@ -49,9 +49,9 @@ export const Navbar = () => {
               <span className="hidden after:absolute after:-bottom-1 after:left-0 hover:after:h-1 hover:after:w-full hover:after:bg-blueprimary md:inline-block"></span>
             </Link>
           ))}
-          <button className="lineNavMenu md:lineNavMenu-none flex w-max items-center gap-2 rounded-md bg-blueprimary px-4 py-2 text-lg text-white transition-opacity hover:opacity-90">
+          <Link href={'/kontak-kami'} className="lineNavMenu md:lineNavMenu-none flex w-max items-center gap-2 rounded-md bg-blueprimary px-4 py-2 text-lg text-white transition-opacity hover:opacity-90">
             Kontak <ArrowUpRight />
-          </button>
+          </Link>
         </div>
       </div>
     </nav>
