@@ -4,6 +4,7 @@ import type { Metadata } from "next"
 import { Navbar } from "@/components/molecules/navbar"
 
 import "./globals.css"
+import { FooterSection } from "@/components/organisms/FooterSection"
 
 // const epilogue = Epilogue({
 //   weight: ["300", "400", "600", "700", "800", "900"],
@@ -24,7 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <div className="mt-[68px]">{children}</div>
+        <div className="mt-[68px] mb-[100px]">{children}</div>
+        <FooterSection />
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       </body>
     </html>
   )

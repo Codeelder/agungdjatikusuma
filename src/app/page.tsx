@@ -1,5 +1,4 @@
 import { CTASection } from "@/components/organisms/CTASection"
-import { FooterSection } from "@/components/organisms/FooterSection"
 import { HeroSection } from "@/components/organisms/HeroSection"
 import { LayananKami } from "@/components/organisms/LayananKamiSection"
 import { PartnerSection } from "@/components/organisms/PartnerSection"
@@ -15,7 +14,6 @@ export default function Home() {
       <TestimoniSection />
       <CTASection />
       <PartnerSection />
-      <FooterSection />
     </main>
   )
 }
