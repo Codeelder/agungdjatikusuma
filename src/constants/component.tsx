@@ -48,7 +48,7 @@ export const Elipses = () => {
   return (
     <>
       <svg
-        className="absolute"
+        className="absolute h-20 md:h-32"
         width="116"
         height="123"
         viewBox="0 0 116 123"
@@ -60,7 +60,7 @@ export const Elipses = () => {
         <circle cx="16" cy="23" r="59" stroke="white" strokeWidth="2" />
       </svg>
       <svg
-        className="absolute right-0"
+        className="absolute right-0 h-28 md:h-52"
         width="93"
         height="200"
         viewBox="0 0 93 200"
@@ -94,27 +94,6 @@ export const Elipses = () => {
           strokeWidth="2"
         />
       </svg>
-    </>
-  )
-}
-
-export const ToolkitCTA = () => {
-  return (
-    <>
-      <Image
-        className="absolute -top-12 h-28 w-32 -rotate-12 md:top-96 md:h-56 md:w-64 lg:top-80 lg:h-72 lg:w-80"
-        src="/layanan/toolkit-2.png"
-        alt=""
-        width={800}
-        height={800}
-      />
-      <Image
-        className="absolute -top-20 right-0 h-40 w-40 -scale-x-100 md:top-96 md:h-64 md:w-64 lg:top-64 lg:h-96 lg:w-96"
-        src="/layanan/toolkit-4.png"
-        alt=""
-        width={800}
-        height={800}
-      />
     </>
   )
 }

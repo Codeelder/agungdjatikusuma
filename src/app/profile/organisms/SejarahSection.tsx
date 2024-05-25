@@ -5,9 +5,9 @@ import { Circle } from "@/constants/component"
 export const SejarahSection = () => {
   return (
     <div className="container">
-      <div className="flex w-full flex-col-reverse gap-5 p-5 md:flex-row md:gap-0">
+      <div className="flex w-full flex-col-reverse gap-5 md:flex-row md:gap-0">
         <div className="flex w-full flex-col justify-between gap-10 md:w-1/2 md:gap-5 md:pr-5 md:pt-5 lg:gap-0">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-5 px-2">
             <div>
               <h1 className="text-3xl font-semibold">Sejarah</h1>
               <h1 className="text-3xl font-semibold">

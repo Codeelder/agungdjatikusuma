@@ -40,9 +40,9 @@ export const HeaderSection = () => {
   ]
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container">
       <div className="flex h-auto flex-col justify-center space-y-2 lg:h-96 lg:flex-row lg:space-x-2 lg:space-y-0 xl:h-498">
-        <div className="relative h-full w-full rounded-3xl bg-blueprimary px-2 py-10 md:px-10 md:py-20 xl:max-w-xl">
+        <div className="relative h-full w-full rounded-md bg-blueprimary px-2 py-10 md:rounded-xl md:px-10 md:py-20 lg:rounded-2xl xl:max-w-xl">
           <h1 className="text-center text-3xl font-semibold text-white md:text-start lg:text-4xl xl:text-6xl">
             Profile perusahaan kami
           </h1>
@@ -57,7 +57,7 @@ export const HeaderSection = () => {
               key={card.id}
               onMouseEnter={() => setHoveredCard(card.id)}
               onMouseLeave={() => setHoveredCard(null)}
-              className={`relative transform rounded-xl transition-all duration-300 ease-in-out md:rounded-3xl 
+              className={`relative transition-all
                                 ${
                                   hoveredCard === card.id
                                     ? "w-full md:max-w-[398px]"
@@ -69,7 +69,7 @@ export const HeaderSection = () => {
                                 }`}
             >
               <Image
-                className={`h-full w-full rounded-xl object-cover transition-all duration-300 ease-in-out md:rounded-3xl
+                className={`h-full w-full rounded-md object-cover transition-all duration-300 ease-in-out md:rounded-xl lg:rounded-2xl
                                     ${
                                       hoveredCard === card.id
                                         ? "w-full md:max-w-[398px]"

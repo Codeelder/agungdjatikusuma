@@ -1,22 +1,23 @@
+import Image from "next/image"
 import Link from "next/link"
 
-import { Elipses, ToolkitCTA } from "@/constants/component"
+import { Elipses } from "@/constants/component"
 import { ArrowUpRight } from "lucide-react"
 
 export const CTASection = () => {
   return (
     <section className="container">
-      <div className="relative rounded-3xl bg-blueprimary">
+      <div className="relative overflow-x-clip rounded-3xl bg-blueprimary">
         <Elipses />
-        <div className="flex h-full flex-col items-center justify-center space-y-8 py-24 text-center text-white md:space-y-28">
-          <div className="space-y-3 md:w-2/3">
-            <h1 className="text-4xl font-semibold lg:text-6xl">
+        <div className="flex h-full flex-col items-center justify-center gap-y-8 pb-28 pt-20 text-center text-white md:gap-y-16">
+          <div className="space-y-3 px-2 md:w-2/3">
+            <h1 className="relative z-10 text-4xl font-semibold lg:text-6xl">
               Siap Bekerja bersama kami?
             </h1>
-            <p className="text-lg text-gray-100 lg:text-2xl">
+            <p className="text-gray-100 lg:text-2xl">
               Kami menyediakan jasa-jasa yang mungkin anda cari, kami disini
               untuk mempermudah pekerjaan kalian dan tidak perlu repot-repot
-              untuk mencari penyedia jasa yang lain!.
+              untuk mencari penyedia jasa yang lain!
             </p>
           </div>
           <Link
@@ -29,7 +30,20 @@ export const CTASection = () => {
             <ArrowUpRight size={32} />
           </Link>
         </div>
-        <ToolkitCTA />
+        <Image
+          className="absolute -bottom-10 h-28 w-32 -rotate-12 object-contain object-left md:-bottom-28 md:h-56 md:w-64 lg:h-72 lg:w-80"
+          src="/layanan/toolkit-2.png"
+          alt=""
+          width={800}
+          height={800}
+        />
+        <Image
+          className="absolute -bottom-16 right-0 h-40 w-40 rotate-6 -scale-x-100 object-contain object-left md:-bottom-32 md:h-64 md:w-64 lg:h-96 lg:w-96"
+          src="/layanan/toolkit-4.png"
+          alt=""
+          width={800}
+          height={800}
+        />
       </div>
     </section>
   )
