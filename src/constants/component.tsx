@@ -7,7 +7,7 @@ export const SvgTestimoni = () => {
     )
 }
 
-export const Elipse = () => {
+export const Elipses = () => {
     return (
         <>
             <svg className="absolute" width="116" height="123" viewBox="0 0 116 123" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,12 +38,23 @@ export const ToolkitCTA = () => {
     )
 }
 
-export const Circle = ({className}: {className?: string }) => {
+export const Circle = ({ 
+    className, stroke }: { className?: string, stroke?: string }) => {
     return (
         <svg className={className} width="116" height="123" viewBox="0 0 116 123" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="23" r="99" stroke="white" strokeWidth="2" />
-            <circle cx="16" cy="23" r="79" stroke="white" strokeWidth="2" />
-            <circle cx="16" cy="23" r="59" stroke="white" strokeWidth="2" />
+            <circle cx="16" cy="23" r="99" stroke={stroke} strokeWidth="2" />
+            <circle cx="16" cy="23" r="79" stroke={stroke} strokeWidth="2" />
+            <circle cx="16" cy="23" r="59" stroke={stroke} strokeWidth="2" />
+        </svg>
+    )
+}
+
+export const Elipse = ({ className }: { className?: string }) => {
+    return (
+        <svg className={className} width="93" height="200" viewBox="0 0 93 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="100" r="99" stroke="white" strokeWidth="2" />
+            <circle cx="100" cy="100" r="79" stroke="white" strokeWidth="2" />
+            <circle cx="100" cy="100" r="59" stroke="white" strokeWidth="2" />
         </svg>
     )
 }
