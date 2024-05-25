@@ -39,7 +39,7 @@ export const HeroSection = () => {
           <div className="h-full space-y-8 px-3 pt-10 text-white md:space-y-10 md:px-6 md:py-6 lg:space-y-12 lg:py-10 lg:pe-4 lg:ps-10">
             <h1 className="text-center text-5xl font-semibold md:text-8xl lg:text-start lg:text-7xl xl:text-8xl">
               “Kepuasan Anda adalah{" "}
-              <span className="rounded-md bg-white px-3 text-blueprimary">
+              <span className="flex w-max h-max rounded-md bg-white px-3 text-blueprimary">
                 Prioritas
               </span>{" "}
               bagi kami.”
