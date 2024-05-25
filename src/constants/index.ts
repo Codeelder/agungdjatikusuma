@@ -129,7 +129,7 @@ export const DATAS = [
     title: "Ekspedisi",
     imgSrc: "/layanan-kami/ekspedisi.png",
     svgSrc: "/layanan/toolkit-3.png",
-    position: "-right-4 md:-right-10",
+    position: "right-2 md:-right-10",
     flexRow: "flex-row",
   },
   {
@@ -138,7 +138,7 @@ export const DATAS = [
     title: "Pengembangan Perangkat Lunak",
     imgSrc: "/layanan-kami/perangkat-lunak.png",
     svgSrc: "/layanan/toolkit-1.png",
-    position: "-left-4 md:-left-10",
+    position: "left-2 md:-left-10",
     flexRow: "flex-row-reverse",
   },
   {
@@ -147,7 +147,7 @@ export const DATAS = [
     title: "Reparasi",
     imgSrc: "/layanan-kami/reparasi.png",
     svgSrc: "/layanan/toolkit-2.png",
-    position: "-right-4 md:-right-10",
+    position: "right-2 md:-right-10",
     flexRow: "flex-row",
   },
   {
@@ -156,7 +156,7 @@ export const DATAS = [
     title: "Perdagangan",
     imgSrc: "/layanan-kami/perdagangan.png",
     svgSrc: "/layanan/toolkit-4.png",
-    position: "-left-4 md:-left-10",
+    position: "left-2 md:-left-10",
     flexRow: "flex-row-reverse",
   },
 ]

@@ -22,13 +22,22 @@ export const LayananLayout = ({ data, flexRow }: Props) => {
         <p>{data.children}</p>
       </div>
       <div className="relative w-full md:w-1/2">
-        <Image src={data.imgSrc} alt={data.title} height={60} width={60} />
         <Image
-          className={`absolute -top-16 md:-top-32 ${data.position} h-36 w-40 md:h-64 md:w-72`}
+          src={data.imgSrc}
+          alt={data.title}
+          layout="responsive"
+          width={700}
+          height={475}
+          quality={100}
+          className="rounded-xl md:rounded-3xl"
+        />
+        <Image
+          className={`absolute -top-16 md:-top-32 ${data.position} h-32 w-36 md:h-64 md:w-72`}
           src={data.svgSrc}
           alt=""
-          height={60}
-          width={60}
+          quality={100}
+          height={128}
+          width={144}
         />
       </div>
     </div>
