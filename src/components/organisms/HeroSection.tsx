@@ -33,8 +33,8 @@ const CardCEO = () => {
 
 export const HeroSection = () => {
   return (
-    <section className="rounded-3xl bg-blueprimary lg:container">
-      <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-y-0">
+    <section className="lg:container">
+      <div className="grid grid-cols-1 gap-y-8 rounded-3xl bg-blueprimary lg:grid-cols-2 lg:gap-y-0">
         <div className="col-span-1">
           <div className="h-full space-y-8 px-3 pt-10 text-white md:space-y-10 md:px-6 md:py-6 lg:space-y-12 lg:py-10 lg:pe-4 lg:ps-10">
             <h1 className="text-center text-5xl font-semibold md:text-8xl lg:text-start lg:text-7xl xl:text-8xl">
@@ -65,8 +65,8 @@ export const HeroSection = () => {
           <Image
             src={"/mockup.jpg"}
             alt="Agung Djati Kusuma on billboard"
-            width={1000}
-            height={1000}
+            width={900}
+            height={900}
             className="h-full w-full rounded-3xl object-cover object-left"
           />
           <div className="absolute bottom-0 right-0 p-4 md:bottom-10 md:right-10 md:w-1/2 md:p-0">

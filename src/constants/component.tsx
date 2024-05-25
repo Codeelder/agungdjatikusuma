@@ -1,23 +1,46 @@
 import Image from "next/image"
 
-export const SvgTestimoni = () => {
+export const DotDot = ({
+  color = "#0B50FF",
+  className,
+}: {
+  color?: string
+  className?: string
+}) => {
   return (
-    <>
-      <Image
-        className="absolute -top-24 right-5 md:right-20 md:top-0"
-        src="/circle's.png"
-        alt=""
-        width={200}
-        height={200}
-      />
-      <Image
-        className="absolute -bottom-20 rotate-[145deg]"
-        src="/circle's.png"
-        alt=""
-        width={200}
-        height={200}
-      />
-    </>
+    <svg
+      width="100"
+      height="72"
+      viewBox="0 0 100 72"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <ellipse cx="3.48047" cy="3.03033" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="3.48047" cy="46.8148" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="40.8711" cy="3.03033" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="40.8711" cy="46.8148" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="78.2598" cy="3.03033" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="78.2598" cy="46.8148" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="3.48047" cy="24.9224" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="3.48047" cy="68.7066" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="40.8711" cy="24.9224" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="40.8711" cy="68.7066" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="78.2598" cy="24.9224" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="78.2598" cy="68.7066" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="22.1758" cy="3.03033" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="22.1758" cy="46.8148" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="59.5664" cy="3.03033" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="59.5664" cy="46.8148" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="96.9551" cy="3.03033" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="96.9551" cy="46.8148" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="22.1758" cy="24.9224" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="22.1758" cy="68.7066" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="59.5664" cy="24.9224" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="59.5664" cy="68.7066" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="96.9551" cy="24.9224" rx="2.5" ry="2.62469" fill={color} />
+      <ellipse cx="96.9551" cy="68.7066" rx="2.5" ry="2.62469" fill={color} />
+    </svg>
   )
 }
 
@@ -82,15 +105,15 @@ export const ToolkitCTA = () => {
         className="absolute -top-12 h-28 w-32 -rotate-12 md:top-96 md:h-56 md:w-64 lg:top-80 lg:h-72 lg:w-80"
         src="/layanan/toolkit-2.png"
         alt=""
-        width={200}
-        height={200}
+        width={800}
+        height={800}
       />
       <Image
         className="absolute -top-20 right-0 h-40 w-40 -scale-x-100 md:top-96 md:h-64 md:w-64 lg:top-64 lg:h-96 lg:w-96"
         src="/layanan/toolkit-4.png"
         alt=""
-        width={200}
-        height={200}
+        width={800}
+        height={800}
       />
     </>
   )

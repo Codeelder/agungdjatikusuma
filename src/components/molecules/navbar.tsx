@@ -3,10 +3,10 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 import { MENUS } from "@/constants"
 import { ArrowUpRight, Menu, MoveUpRight, X } from "lucide-react"
-import { usePathname } from "next/navigation"
 
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
@@ -43,7 +43,7 @@ export const Navbar = () => {
             <Link
               href={menu.href}
               key={menu.title}
-              className={`lineNavMenu ${pathname === menu.href ? 'text-blueprimary' : 'text-black'} md:lineNavMenu-none relative flex w-max items-center text-lg transition delay-150 ease-in md:font-medium md:hover:text-blueprimary`}
+              className={`lineNavMenu ${pathname === menu.href ? "text-blueprimary" : "text-black"} md:lineNavMenu-none relative flex w-max items-center text-lg transition delay-150 ease-in md:font-medium md:hover:text-blueprimary`}
             >
               {menu.title}
               <span className="hidden after:absolute after:-bottom-1 after:left-0 hover:after:h-1 hover:after:w-full hover:after:bg-blueprimary md:inline-block"></span>

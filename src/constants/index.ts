@@ -72,88 +72,92 @@ export const PARTNER = [
 export const FOOTERSEEMORE = [
   {
     id: 1,
-    title: "Layanan Kami"
+    title: "Layanan Kami",
   },
   {
     id: 2,
-    title: "Tentang Kami"
+    title: "Tentang Kami",
   },
   {
     id: 3,
-    title: "Testimoni"
+    title: "Testimoni",
   },
   {
     id: 4,
-    title: "Rekan Kami"
-  }
+    title: "Rekan Kami",
+  },
 ]
 
 export const FOOTERHALAMAN = [
   {
     id: 1,
-    title: "Beranda"
+    title: "Beranda",
   },
   {
     id: 2,
-    title: "Profil Kami"
+    title: "Profil Kami",
   },
   {
     id: 3,
-    title: "Layanan Kami"
+    title: "Layanan Kami",
   },
 ]
 
 export const FOOTERJASA = [
   {
     id: 1,
-    title: "Ekspedisi"
+    title: "Ekspedisi",
   },
   {
     id: 2,
-    title: "Pemograman Perangkat Lunak"
+    title: "Pemograman Perangkat Lunak",
   },
   {
     id: 3,
-    title: "Perdagangan"
+    title: "Perdagangan",
   },
   {
     id: 4,
-    title: "Reparasi"
-  }
+    title: "Reparasi",
+  },
 ]
 
 export const DATAS = [
   {
-    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
-    title: 'Ekspedisi',
-    imgSrc: '/layanan-kami/ekspedisi.png',
-    svgSrc: '/layanan/toolkit-3.png',
-    position: '-right-4 md:-right-10',
-    flexRow: 'flex-row'
+    children:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+    title: "Ekspedisi",
+    imgSrc: "/layanan-kami/ekspedisi.png",
+    svgSrc: "/layanan/toolkit-3.png",
+    position: "-right-4 md:-right-10",
+    flexRow: "flex-row",
   },
   {
-    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
-    title: 'Pengembangan Perangkat Lunak',
-    imgSrc: '/layanan-kami/perangkat-lunak.png',
-    svgSrc: '/layanan/toolkit-1.png',
-    position: '-left-4 md:-left-10',
-    flexRow: 'flex-row-reverse'
+    children:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+    title: "Pengembangan Perangkat Lunak",
+    imgSrc: "/layanan-kami/perangkat-lunak.png",
+    svgSrc: "/layanan/toolkit-1.png",
+    position: "-left-4 md:-left-10",
+    flexRow: "flex-row-reverse",
   },
   {
-    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
-    title: 'Reparasi',
-    imgSrc: '/layanan-kami/reparasi.png',
-    svgSrc: 'layanan/toolkit-2.png',
-    position: '-right-4 md:-right-10',
-    flexRow: 'flex-row'
+    children:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+    title: "Reparasi",
+    imgSrc: "/layanan-kami/reparasi.png",
+    svgSrc: "/layanan/toolkit-2.png",
+    position: "-right-4 md:-right-10",
+    flexRow: "flex-row",
   },
   {
-    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
-    title: 'Perdagangan',
-    imgSrc: '/layanan-kami/perdagangan.png',
-    svgSrc: '/layanan/toolkit-4.png',
-    position: '-left-4 md:-left-10',
-    flexRow: 'flex-row-reverse'
+    children:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.  mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.",
+    title: "Perdagangan",
+    imgSrc: "/layanan-kami/perdagangan.png",
+    svgSrc: "/layanan/toolkit-4.png",
+    position: "-left-4 md:-left-10",
+    flexRow: "flex-row-reverse",
   },
 ]
 

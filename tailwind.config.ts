@@ -7,7 +7,6 @@ const config = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
-    "./node_modules/flowbite/**/*.js"
   ],
   prefix: "",
   theme: {
@@ -18,15 +17,10 @@ const config = {
         498: "498px",
       },
       maxWidth: {
-        510: '510px',
+        510: "510px",
       },
       container: {
-        padding: {
-          DEFAULT: "0.2rem",
-          sm: "1rem",
-          md: "1rem",
-          lg: "0rem",
-        },
+        padding: "0.2rem",
         center: true,
       },
       colors: {
@@ -91,10 +85,7 @@ const config = {
       },
     },
   },
-  plugins: [
-    require("tailwindcss-animate"),
-    require('flowbite/plugin')
-  ],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config
 
 export default config
