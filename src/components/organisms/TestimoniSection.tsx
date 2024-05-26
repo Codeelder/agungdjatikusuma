@@ -1,8 +1,6 @@
 import * as React from "react"
 import Image from "next/image"
 
-import { DotDot } from "@/constants/component"
-
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -11,6 +9,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+
+import { DotDot } from "@/constants/component"
 
 export const TestimoniSection = () => {
   return (

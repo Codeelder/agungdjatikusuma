@@ -1,6 +1,6 @@
-import { DATAS } from "@/constants"
-
 import { LayananLayout } from "@/components/molecules/layananLayout"
+
+import { DATAS } from "@/constants"
 
 export const LayananSection = () => {
   return (

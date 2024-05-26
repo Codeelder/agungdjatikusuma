@@ -1,8 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { FOOTERHALAMAN, FOOTERJASA, FOOTERSEEMORE } from "@/constants"
 import { Facebook, Instagram, Twitter } from "lucide-react"
+
+import { FOOTERHALAMAN, FOOTERJASA, FOOTERSEEMORE } from "@/constants"
 
 export const FooterSection = () => {
   return (

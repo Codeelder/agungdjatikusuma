@@ -1,6 +1,5 @@
-import { CARDS } from "@/constants"
-
 import { CardLayanan } from "../molecules/cardLayanan"
+import { CARDS } from "@/constants"
 
 export const LayananKami = () => {
   return (

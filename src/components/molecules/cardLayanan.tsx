@@ -1,10 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { CardType } from "@/constants"
 import { ArrowUpRight } from "lucide-react"
 
 import { cn } from "@/lib/utils"
+
+import { CardType } from "@/constants"
 
 type Props = {
   widthCol?: string

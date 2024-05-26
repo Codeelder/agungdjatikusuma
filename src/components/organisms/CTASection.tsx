@@ -1,8 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Elipses } from "@/constants/component"
 import { ArrowUpRight } from "lucide-react"
+
+import { Elipses } from "@/constants/component"
 
 export const CTASection = () => {
   return (

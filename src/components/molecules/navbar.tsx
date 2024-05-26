@@ -5,8 +5,9 @@ import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import { MENUS } from "@/constants"
 import { ArrowUpRight, Menu, MoveUpRight, X } from "lucide-react"
+
+import { MENUS } from "@/constants"
 
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false)

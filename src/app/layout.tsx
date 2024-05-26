@@ -1,10 +1,9 @@
 import type { Metadata } from "next"
 
 import { Navbar } from "@/components/molecules/navbar"
+import { FooterSection } from "@/components/organisms/FooterSection"
 
 import "./globals.css"
-
-import { FooterSection } from "@/components/organisms/FooterSection"
 
 export const metadata: Metadata = {
   title: "Agung Djati Kusuma",

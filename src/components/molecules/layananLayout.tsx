@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-import { DataType } from "@/constants"
-
 import { cn } from "@/lib/utils"
+
+import { DataType } from "@/constants"
 
 type Props = {
   data: DataType
