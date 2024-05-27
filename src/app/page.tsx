@@ -1,9 +1,9 @@
-import { CTASection } from "@/components/organisms/CTASection"
-import { HeroSection } from "@/components/organisms/HeroSection"
-import { LayananKami } from "@/components/organisms/LayananKamiSection"
-import { PartnerSection } from "@/components/organisms/PartnerSection"
-import { ProfileKami } from "@/components/organisms/ProfileKamiSection"
-import { TestimoniSection } from "@/components/organisms/TestimoniSection"
+import { CTASection } from "@/components/organisms/beranda/CTASection"
+import { HeroSection } from "@/components/organisms/beranda/HeroSection"
+import { LayananKami } from "@/components/organisms/beranda/LayananKamiSection"
+import { PartnerSection } from "@/components/organisms/beranda/PartnerSection"
+import { ProfileKami } from "@/components/organisms/beranda/ProfileKamiSection"
+import { TestimoniSection } from "@/components/organisms/beranda/TestimoniSection"
 
 export default function Home() {
   return (

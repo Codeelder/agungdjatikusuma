@@ -3,9 +3,9 @@ import Link from "next/link"
 
 import { Facebook, Instagram, Twitter } from "lucide-react"
 
-import { FOOTERHALAMAN, FOOTERJASA, FOOTERSEEMORE } from "@/constants"
+import { FOOTERHALAMAN, FOOTERJASA, FOOTERSEEMORE } from "@/constants/footer"
 
-export const FooterSection = () => {
+export const Footer = () => {
   return (
     <div className="container p-5">
       <div className="flex flex-col gap-5 md:flex-row">
@@ -23,9 +23,7 @@ export const FooterSection = () => {
           </div>
           <div>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-              fringilla, mattis ligula consectetur.
+            Kami terus berinovasi dan beradaptasi dengan kebutuhan pasar untuk memberikan solusi terbaik dan memastikan keandalan serta profesionalisme dalam setiap pekerjaan yang kami lakukan.
             </p>
           </div>
         </div>
@@ -67,11 +65,6 @@ export const FooterSection = () => {
       <hr className="my-5 text-black" />
       <div className="flex w-full justify-between">
         <p>Copyright © 2024 - Agung Djati Kusuma. All rights reserved.</p>
-        <div className="flex gap-2">
-          <Instagram color="gray" />
-          <Facebook color="gray" />
-          <Twitter color="gray" />
-        </div>
       </div>
     </div>
   )

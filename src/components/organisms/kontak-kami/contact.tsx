@@ -4,8 +4,8 @@ import { Mail, Phone } from 'lucide-react';
 import { Elipses } from '@/constants/component';
 
 export const ContactSection = () => {
-    const phoneNumber = '6281234567890'; // Ganti dengan nomor WhatsApp Anda
-    const email = 'info@example.com'; // Ganti dengan alamat email Anda
+    const phoneNumber = '6281228467431'
+    const email = 'agungdjatikusumaa@gmail.com'
 
     const whatsappLink = `https://wa.me/${phoneNumber}`;
     const mailtoLink = `mailto:${email}`;

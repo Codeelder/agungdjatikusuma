@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import { cn } from "@/lib/utils"
 
-import { DataType } from "@/constants"
+import { DataType } from "@/constants/layananLayout"
 
 type Props = {
   data: DataType

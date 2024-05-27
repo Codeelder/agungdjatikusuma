@@ -1,10 +1,10 @@
-import { CTASection } from "@/components/organisms/CTASection"
+import { CTASection } from "@/components/organisms/beranda/CTASection"
 
-import { HeaderSection } from "./organisms/HeaderSection"
-import { PerizinanSection } from "./organisms/PerizinanSection"
-import { SejarahSection } from "./organisms/SejarahSection"
-import { StrukturSection } from "./organisms/StrukturSection"
-import { VMSection } from "./organisms/VMSection"
+import { HeaderSection } from "../../components/organisms/profile-kami/HeaderSection"
+import { PerizinanSection } from "../../components/organisms/profile-kami/PerizinanSection"
+import { SejarahSection } from "../../components/organisms/profile-kami/SejarahSection"
+import { StrukturSection } from "../../components/organisms/profile-kami/StrukturSection"
+import { VMSection } from "../../components/organisms/profile-kami/VMSection"
 
 export default function Profile() {
   return (

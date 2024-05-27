@@ -22,10 +22,7 @@ const CardCEO = () => {
         </div>
       </div>
       <p className="text-xs">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
-        deleniti aliquam voluptatum totam. Quae beatae consequuntur, corporis
-        quibusdam qui alias nobis et provident, ipsa dolorum nihil deserunt
-        recusandae voluptates eum!
+        "Di Agung Djati Kusuma, kepuasan Anda adalah prioritas kami. Kami berkomitmen untuk memberikan layanan terbaik yang dapat memenuhi kebutuhan Anda."
       </p>
     </div>
   )
@@ -46,10 +43,7 @@ export const HeroSection = () => {
             </h1>
             <div className="space-y-6 lg:pe-6">
               <p className="text-center text-sm md:text-lg lg:text-start">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis quia aut excepturi voluptatum voluptas esse fugit vel
-                error! Aliquid harum sapiente quisquam magni quaerat accusamus
-                at numquam alias similique fugiat.
+                Agung Djati Kusuma adalah perusahaan yang bergerak di bidang penyediaan jasa, dengan komitmen tinggi untuk memenuhi kebutuhan pelanggan dengan layanan terbaik. Kami terus berinovasi dan beradaptasi dengan kebutuhan pasar untuk memberikan solusi terbaik dan memastikan keandalan serta profesionalisme dalam setiap pekerjaan yang kami lakukan.
               </p>
               <Link
                 href={"/layanan-kami"}

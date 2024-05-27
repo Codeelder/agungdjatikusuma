@@ -11,11 +11,14 @@ export const ProfileKami = () => {
           <div className="flex flex-col gap-5">
             <h1 className="text-3xl font-semibold">Tentang Kami</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-              fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-              vitae mattis tellus. mattis ligula consectetur, ultrices mauris.
-              Maecenas vitae mattis tellus.
+              Semakin berkembangnya dunia usaha
+              dan memasuki era digitalisasi maka
+              PT.Agung Djati Kusuma hadir untuk
+              mengikuti perkembangan pasar,
+              dengan beberapa bidang usaha jasa
+              dan perdagangan. Kami berkomitmen
+              memberikan pelayanan terbaik serta
+              amanah untuk pelanggan.
             </p>
             <div className="flex gap-2">
               <div className="flex h-10 min-w-20 max-w-max items-center gap-2 rounded-lg bg-blueprimary p-2 text-white">

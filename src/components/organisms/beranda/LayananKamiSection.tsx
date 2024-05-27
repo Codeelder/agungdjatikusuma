@@ -1,5 +1,5 @@
-import { CardLayanan } from "../molecules/cardLayanan"
-import { CARDS } from "@/constants"
+import { CardLayanan } from "../../molecules/cardLayanan"
+import { CARDS } from "@/constants/cardLayanan"
 
 export const LayananKami = () => {
   return (

@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 import { Navbar } from "@/components/molecules/navbar"
-import { FooterSection } from "@/components/organisms/FooterSection"
+import { Footer } from "@/components/molecules/footer"
 
 import "./globals.css"
 
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         <div className="mb-[100px] mt-[68px]">{children}</div>
-        <FooterSection />
+        <Footer />
       </body>
     </html>
   )

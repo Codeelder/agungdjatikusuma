@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
-import { CardType } from "@/constants"
+import { CardType } from "@/constants/cardLayanan"
 
 type Props = {
   widthCol?: string

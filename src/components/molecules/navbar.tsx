@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation"
 
 import { ArrowUpRight, Menu, MoveUpRight, X } from "lucide-react"
 
-import { MENUS } from "@/constants"
+import { MENUS } from "@/constants/navbar"
 
 export const Navbar = () => {
   const [navbar, setNavbar] = useState(false)

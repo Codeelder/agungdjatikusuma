@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import { PARTNER } from "@/constants"
+import { PARTNER } from "@/constants/partner"
 
 const Partners = () => {
   return (
