@@ -1,14 +1,14 @@
 // components/ContactSection.tsx
-import React from 'react';
-import { Mail, Phone } from 'lucide-react';
-import { Elipses } from '@/constants/component';
+import React from 'react'
+import { Mail, Phone } from 'lucide-react'
+import { Elipses } from '@/constants/component'
 
 export const ContactSection = () => {
     const phoneNumber = '6281228467431'
     const email = 'agungdjatikusumaa@gmail.com'
 
-    const whatsappLink = `https://wa.me/${phoneNumber}`;
-    const mailtoLink = `mailto:${email}`;
+    const whatsappLink = `https://wa.me/${phoneNumber}`
+    const mailtoLink = `mailto:${email}`
 
     return (
         <div className="container mx-auto px-4 py-8">
@@ -40,5 +40,5 @@ export const ContactSection = () => {
                 </div>
             </div>
         </div>
-    );
-};
+    )
+}
