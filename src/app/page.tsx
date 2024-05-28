@@ -11,7 +11,7 @@ export default function Home() {
       <HeroSection />
       <LayananKami />
       <ProfileKami />
-      <TestimoniSection />
+{/*       <TestimoniSection /> */}
       <CTASection />
     </main>
   )
