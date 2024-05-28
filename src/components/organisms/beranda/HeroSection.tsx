@@ -9,7 +9,7 @@ const CardCEO = () => {
       <div className="flex items-center gap-x-3">
         <Image
           src="/imgpp.png"
-          alt="CEO of Agung Djati Kusuma"
+          alt="CEO Agung Djati Kusuma"
           width={160}
           height={160}
           className="h-14 w-14 rounded-full object-cover"
@@ -22,7 +22,9 @@ const CardCEO = () => {
         </div>
       </div>
       <p className="text-xs">
-        "Di Agung Djati Kusuma, kepuasan Anda adalah prioritas kami. Kami berkomitmen untuk memberikan layanan terbaik yang dapat memenuhi kebutuhan Anda."
+        &nbsp;Di Agung Djati Kusuma, kepuasan Anda adalah prioritas kami. Kami
+        berkomitmen untuk memberikan layanan terbaik yang dapat memenuhi
+        kebutuhan Anda.&nbsp;
       </p>
     </div>
   )
@@ -36,14 +38,17 @@ export const HeroSection = () => {
           <div className="h-full space-y-8 px-3 pt-10 text-white md:space-y-10 md:px-6 md:py-6 lg:space-y-12 lg:py-10 lg:pe-4 lg:ps-10">
             <h1 className="text-center text-5xl font-semibold md:text-8xl lg:text-start lg:text-7xl xl:text-8xl">
               “Kepuasan Anda adalah{" "}
-              <span className="flex w-max h-max rounded-md bg-white px-3 text-blueprimary">
+              <span className="mx-auto flex h-max w-max rounded-md bg-white px-3 text-blueprimary lg:mx-0">
                 Prioritas
               </span>{" "}
               bagi kami.”
             </h1>
             <div className="space-y-6 lg:pe-6">
               <p className="text-center text-sm md:text-lg lg:text-start">
-                Agung Djati Kusuma adalah perusahaan yang bergerak di bidang penyediaan jasa, dengan komitmen tinggi untuk memenuhi kebutuhan pelanggan dengan layanan terbaik. Kami terus berinovasi dan beradaptasi dengan kebutuhan pasar untuk memberikan solusi terbaik dan memastikan keandalan serta profesionalisme dalam setiap pekerjaan yang kami lakukan.
+                Kami menyediakan jasa dengan komitmen tinggi untuk memenuhi
+                kebutuhan pelanggan dengan layanan terbaik. Kami terus
+                berinovasi dan beradaptasi untuk memberikan solusi terbaik serta
+                memastikan keandalan dan profesionalisme dalam setiap pekerjaan.
               </p>
               <Link
                 href={"/layanan-kami"}

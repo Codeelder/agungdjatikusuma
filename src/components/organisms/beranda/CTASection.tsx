@@ -1,9 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { ArrowUpRight } from "lucide-react"
-
 import { Elipses } from "@/constants/component"
+import { ArrowUpRight } from "lucide-react"
 
 export const CTASection = () => {
   return (
@@ -11,11 +10,11 @@ export const CTASection = () => {
       <div className="relative overflow-x-clip rounded-3xl bg-blueprimary">
         <Elipses />
         <div className="flex h-full flex-col items-center justify-center gap-y-8 pb-28 pt-20 text-center text-white md:gap-y-16">
-          <div className="space-y-3 px-2 md:w-2/3">
+          <div className="space-y-4 px-2 md:w-2/3">
             <h1 className="relative z-10 text-4xl font-semibold lg:text-6xl">
               Siap Bekerja bersama kami?
             </h1>
-            <p className="text-gray-100 lg:text-2xl">
+            <p className="text-gray-100 lg:text-xl">
               Kami menyediakan jasa-jasa yang mungkin anda cari, kami disini
               untuk mempermudah pekerjaan kalian dan tidak perlu repot-repot
               untuk mencari penyedia jasa yang lain!
