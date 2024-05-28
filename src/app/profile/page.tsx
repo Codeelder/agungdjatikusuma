@@ -13,7 +13,7 @@ export default function Profile() {
       <SejarahSection />
       <VMSection />
       <PerizinanSection />
-      <StrukturSection />
+{/*       <StrukturSection /> */}
       <CTASection />
     </main>
   )
