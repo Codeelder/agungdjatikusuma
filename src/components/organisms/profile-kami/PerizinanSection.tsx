@@ -31,10 +31,10 @@ export const PerizinanSection = () => {
 
   return (
     <section className="container">
-      <div className="md:flex gap-4">
-        <div className="relative flex h-96 flex-1 justify-center rounded-xl bg-blueprimary p-4 md:grid-cols-2 lg:col-span-3">
+      <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2">
+        <div className="relative col-span-1 h-96 rounded-xl bg-blueprimary p-4">
           <Image
-            className="object-contain z-10"
+            className="z-10 h-full w-full object-contain"
             src={selectedImage}
             alt="Perizinan"
             width={500}
@@ -43,16 +43,17 @@ export const PerizinanSection = () => {
           <Elipse className="absolute -top-16 left-20 -rotate-90" />
           <Elipse className="absolute -bottom-16 right-20 rotate-90" />
         </div>
-        <div className="relative flex flex-1 flex-col items-end space-y-5 px-1 md:col-span-2">
-          <div className="text-end">
-            <h1 className="text-3xl font-semibold lg:text-5xl">
+        <div className="relative col-span-1 space-y-5 px-2">
+          <div className="space-y-2 text-center md:space-y-4 md:text-end">
+            <h1 className="text-2xl font-semibold md:text-4xl">
               Perizinan Perusahaan
             </h1>
             <p className="text-sm lg:text-base">
-              Kami berkomitmen untuk menjalankan operasi bisnis kami sesuai dengan peraturan dan perundang-undangan yang berlaku. Semua aktivitas dan layanan yang kami tawarkan telah memperoleh izin resmi dari instansi terkait, memastikan bahwa kami beroperasi secara legal dan bertanggung jawab.{" "}
+              Kami berkomitmen untuk menjalankan operasi bisnis kami sesuai
+              dengan peraturan dan perundang-undangan yang berlaku.
             </p>
           </div>
-          <ol className="relative w-max border-e border-black text-end">
+          <ol className="relative me-2 border-e border-black text-end">
             {items.map((item, index) => (
               <li
                 key={item.id}
@@ -69,7 +70,7 @@ export const PerizinanSection = () => {
             ))}
           </ol>
           <Circle
-            className="absolute w-20 h-20 -bottom-1 -right-1 hidden rotate-[180deg] lg:block"
+            className="absolute -bottom-1 -right-1 hidden h-20 w-20 rotate-[180deg] lg:block"
             stroke="#1D24CA"
           />
         </div>

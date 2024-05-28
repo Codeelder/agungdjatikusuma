@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-import { cn } from "@/lib/utils"
-
 import { DataType } from "@/constants/layananLayout"
+
+import { cn } from "@/lib/utils"
 
 type Props = {
   data: DataType
@@ -18,8 +18,10 @@ export const LayananLayout = ({ data, flexRow }: Props) => {
       )}
     >
       <div className="w-full space-y-5 md:w-1/2">
-        <h1 className="text-3xl font-semibold md:text-5xl">{data.title}</h1>
-        <p>{data.children}</p>
+        <h1 className="text-2xl font-semibold md:text-4xl">{data.title}</h1>
+        {data.children.split("\n").map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
       </div>
       <div className="relative w-full md:w-1/2">
         <Image
@@ -32,9 +34,9 @@ export const LayananLayout = ({ data, flexRow }: Props) => {
           className="rounded-xl md:rounded-3xl"
         />
         <Image
-          className={`absolute -top-16 md:-top-32 ${data.position} h-32 w-36 md:h-64 md:w-72`}
+          className={`absolute -top-16 select-none md:-top-32 ${data.position} h-32 w-36 md:h-64 md:w-72`}
           src={data.svgSrc}
-          alt=""
+          alt={data.title}
           quality={100}
           height={128}
           width={144}

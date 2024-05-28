@@ -6,7 +6,7 @@ import { ArrowUpRight } from "lucide-react"
 
 export const CTASection = () => {
   return (
-    <section className="container">
+    <section className="container pb-10 md:pb-16 lg:pb-24">
       <div className="relative overflow-x-clip rounded-3xl bg-blueprimary">
         <Elipses />
         <div className="flex h-full flex-col items-center justify-center gap-y-8 pb-28 pt-20 text-center text-white md:gap-y-16">

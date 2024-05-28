@@ -5,10 +5,10 @@ import { LayananSection } from "@/components/organisms/layanan-kami/LayananSecti
 
 export default function LayananKami() {
   return (
-    <main className="space-y-28">
+    <main className="space-y-28 lg:space-y-32">
       <HeaderSection />
       <LayananSection />
-{/*       <TestimoniSection /> */}
+      {/*       <TestimoniSection /> */}
       <CTASection />
     </main>
   )
