@@ -21,7 +21,7 @@ export const CTASection = () => {
             </p>
           </div>
           <Link
-            href={"/layanan-kami"}
+            href={"/kontak-kami"}
             className="z-10 mx-auto flex w-fit items-center justify-between gap-2 rounded-lg bg-white px-4 text-blueprimary transition-shadow duration-200 hover:shadow-lg hover:shadow-white/20 md:py-2 lg:mx-0"
           >
             <p className="text-xl font-semibold lg:text-3xl">

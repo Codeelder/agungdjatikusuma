@@ -1,9 +1,7 @@
-import { HeaderLayout } from "@/components/molecules/headerlLayout"
 import { profileKamiCards } from "@/constants/cardsProfileKami"
+
+import { HeaderLayout } from "@/components/molecules/headerlLayout"
+
 export const HeaderSection = () => {
-  return (
-    <div>
-      <HeaderLayout cards={profileKamiCards} title="Profil Kami" />\
-    </div>
-  )
+  return <HeaderLayout cards={profileKamiCards} title="Profil Kami" />
 }

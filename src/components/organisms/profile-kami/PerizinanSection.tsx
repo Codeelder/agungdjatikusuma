@@ -34,7 +34,7 @@ export const PerizinanSection = () => {
       <div className="grid grid-cols-1 gap-x-4 gap-y-6 md:grid-cols-2">
         <div className="relative col-span-1 h-96 rounded-xl bg-blueprimary p-4">
           <Image
-            className="z-10 h-full w-full object-contain"
+            className="relative z-10 h-full w-full object-contain"
             src={selectedImage}
             alt="Perizinan"
             width={500}

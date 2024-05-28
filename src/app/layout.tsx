@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
-import { Navbar } from "@/components/molecules/navbar"
 import { Footer } from "@/components/molecules/footer"
+import { Navbar } from "@/components/molecules/navbar"
 
 import "./globals.css"
 
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
-        <div className="mb-[100px] mt-[68px]">{children}</div>
+        <div className="mb-[100px] mt-[68px] overflow-x-clip">{children}</div>
         <Footer />
       </body>
     </html>

@@ -9,11 +9,13 @@ import { VMSection } from "../../components/organisms/profile-kami/VMSection"
 export default function Profile() {
   return (
     <main className="space-y-28">
-      <HeaderSection />
-      <SejarahSection />
+      <div className="space-y-14">
+        <HeaderSection />
+        <SejarahSection />
+      </div>
       <VMSection />
       <PerizinanSection />
-{/*       <StrukturSection /> */}
+      {/* <StrukturSection /> */}
       <CTASection />
     </main>
   )

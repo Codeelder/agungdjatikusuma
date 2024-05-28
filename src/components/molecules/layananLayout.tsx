@@ -2,28 +2,21 @@ import Image from "next/image"
 
 import { DataType } from "@/constants/layananLayout"
 
-import { cn } from "@/lib/utils"
-
 type Props = {
   data: DataType
-  flexRow?: string
+  order?: string
 }
 
-export const LayananLayout = ({ data, flexRow }: Props) => {
+export const LayananLayout = ({ data, order }: Props) => {
   return (
-    <div
-      className={cn(
-        "flex flex-col space-y-14 md:gap-x-10 md:space-y-0",
-        flexRow
-      )}
-    >
-      <div className="w-full space-y-5 md:w-1/2">
+    <div className="grid grid-cols-1 gap-y-4 md:gap-x-4 lg:grid-cols-2 lg:gap-x-8">
+      <div className="cols-span-1 space-y-2 px-2 md:space-y-5 lg:px-0">
         <h1 className="text-2xl font-semibold md:text-4xl">{data.title}</h1>
         {data.children.split("\n").map((item, index) => (
           <p key={index}>{item}</p>
         ))}
       </div>
-      <div className="relative w-full md:w-1/2">
+      <div className={`cols-span-1 relative order-first ${order}`}>
         <Image
           src={data.imgSrc}
           alt={data.title}
@@ -34,7 +27,7 @@ export const LayananLayout = ({ data, flexRow }: Props) => {
           className="rounded-xl md:rounded-3xl"
         />
         <Image
-          className={`absolute -top-16 select-none md:-top-32 ${data.position} h-32 w-36 md:h-64 md:w-72`}
+          className={`absolute -top-16 select-none md:-top-28 ${data.position} h-32 w-36 md:h-64 md:w-72`}
           src={data.svgSrc}
           alt={data.title}
           quality={100}
