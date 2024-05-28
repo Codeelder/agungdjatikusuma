@@ -8,7 +8,7 @@ export default function LayananKami() {
     <main className="space-y-28">
       <HeaderSection />
       <LayananSection />
-      <TestimoniSection />
+{/*       <TestimoniSection /> */}
       <CTASection />
     </main>
   )
