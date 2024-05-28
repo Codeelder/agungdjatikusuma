@@ -13,7 +13,6 @@ export default function Home() {
       <ProfileKami />
       <TestimoniSection />
       <CTASection />
-      <PartnerSection />
     </main>
   )
 }
