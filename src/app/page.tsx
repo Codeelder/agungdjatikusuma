@@ -7,12 +7,14 @@ import { TestimoniSection } from "@/components/organisms/beranda/TestimoniSectio
 
 export default function Home() {
   return (
-    <main className="space-y-28">
-      <HeroSection />
-      <LayananKami />
-      <ProfileKami />
-{/*       <TestimoniSection /> */}
-      <CTASection />
-    </main>
+    <>
+      <main className="space-y-28">
+        <HeroSection />
+        <LayananKami />
+        <ProfileKami />
+        {/*       <TestimoniSection /> */}
+        <CTASection />
+      </main>
+    </>
   )
 }

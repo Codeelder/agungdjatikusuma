@@ -6,8 +6,24 @@ import { Navbar } from "@/components/molecules/navbar"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Agung Djati Kusuma",
-  description: "Create by codeelder",
+  title: {
+    template: "Agung Djati Kusuma | %s",
+    default: "Agung Djati Kusuma",
+  },
+  openGraph: {
+    title: "Agung Djati Kusuma",
+    description: "Layanan ekspedisi, perangkat lunak, dan perdagangan eceran berkualitas tinggi.",
+    url: process.env.NEXT_PUBLIC_APP_URL,
+    siteName: "Agung Djati Kusuma",
+    images: [
+      {
+        url: '/logo.png',
+        width: 508,
+        height: 508,
+      },
+    ],
+    type: "website",
+  },
 }
 
 export default function RootLayout({
