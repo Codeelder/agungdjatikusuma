@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     template: "Agung Djati Kusuma | %s",
     default: "Agung Djati Kusuma",
   },
+  icons: "/logo.png",
   openGraph: {
     title: "Agung Djati Kusuma",
     description: "Layanan ekspedisi, perangkat lunak, dan perdagangan eceran berkualitas tinggi.",
