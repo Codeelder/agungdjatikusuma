@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Agung Djati Kusuma",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_APP_URL}/thumbnail.png`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}thumbnail.png`,
         width: 508,
         height: 508,
       },
