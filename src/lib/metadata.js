@@ -19,3 +19,5 @@ export const metadata = {
       type: "website",
     },
   }
+
+  console.log(process.env.NEXT_PUBLIC_APP_URL)

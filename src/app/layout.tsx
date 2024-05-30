@@ -1,7 +1,7 @@
 import { Footer } from "@/components/molecules/footer"
 import { Navbar } from "@/components/molecules/navbar"
 
-import { metadata } from "../lib/metada"
+import { metadata } from "../lib/metadata"
 
 import "./globals.css"
 
